@@ -1,0 +1,25 @@
+{
+  "dormitoryServiceApp": {
+    "jhiUser": {
+      "home": {
+        "title": "Jhi Users",
+        "createLabel": "Create a new Jhi User",
+        "createOrEditLabel": "Create or edit a Jhi User"
+      },
+      "created": "A new Jhi User is created with identifier {{ param }}",
+      "updated": "A Jhi User is updated with identifier {{ param }}",
+      "deleted": "A Jhi User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Jhi User {{ id }}?"
+      },
+      "detail": {
+        "title": "Jhi User"
+      },
+      "request": "Request",
+      "dicDormitory": "Dic Dormitory",
+      "dicRoom": "Dic Room",
+      "announcement": "Announcement",
+      "dicStudentGroup": "Dic Student Group"
+    }
+  }
+}

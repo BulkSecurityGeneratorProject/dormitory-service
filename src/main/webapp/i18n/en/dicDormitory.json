@@ -1,0 +1,23 @@
+{
+  "dormitoryServiceApp": {
+    "dicDormitory": {
+      "home": {
+        "title": "Dic Dormitories",
+        "createLabel": "Create a new Dic Dormitory",
+        "createOrEditLabel": "Create or edit a Dic Dormitory"
+      },
+      "created": "A new Dic Dormitory is created with identifier {{ param }}",
+      "updated": "A Dic Dormitory is updated with identifier {{ param }}",
+      "deleted": "A Dic Dormitory is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Dic Dormitory {{ id }}?"
+      },
+      "detail": {
+        "title": "Dic Dormitory"
+      },
+      "description": "Description",
+      "floorAmount": "Floor Amount",
+      "jhiUser": "Jhi User"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Announcement",
+    "fields": [
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "finishDate",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "jhiUser",
+            "otherEntityRelationshipName": "announcement",
+            "relationshipName": "jhiUser",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190408155106",
+    "entityTableName": "announcement",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

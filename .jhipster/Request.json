@@ -1,0 +1,42 @@
+{
+    "name": "Request",
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "photoUrl",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "dicTypeOfTrouble",
+            "otherEntityRelationshipName": "request",
+            "relationshipName": "dicTypeOfTrouble",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "jhiUser",
+            "otherEntityRelationshipName": "request",
+            "relationshipName": "jhiUser",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190408155100",
+    "entityTableName": "request",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

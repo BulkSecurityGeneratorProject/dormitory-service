@@ -1,0 +1,35 @@
+{
+    "name": "DicRoom",
+    "fields": [
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "number",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "floor",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "jhiUser",
+            "otherEntityRelationshipName": "dicRoom",
+            "relationshipName": "jhiUser",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190408155104",
+    "entityTableName": "dic_room",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "DicDormitory",
+    "fields": [
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "floorAmount",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "jhiUser",
+            "otherEntityRelationshipName": "dicDormitory",
+            "relationshipName": "jhiUser",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190408155105",
+    "entityTableName": "dic_dormitory",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

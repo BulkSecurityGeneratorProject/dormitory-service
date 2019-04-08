@@ -1,0 +1,23 @@
+{
+  "dormitoryServiceApp": {
+    "dicStudentGroup": {
+      "home": {
+        "title": "Dic Student Groups",
+        "createLabel": "Создать новый Dic Student Group",
+        "createOrEditLabel": "Создать или отредактировать Dic Student Group"
+      },
+      "created": "Новый Dic Student Group создан с идентификатором {{ param }}",
+      "updated": "Dic Student Group обновлен с идентификатором {{ param }}",
+      "deleted": "Dic Student Group удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Dic Student Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Dic Student Group"
+      },
+      "description": "Description",
+      "dicFaculty": "Dic Faculty",
+      "jhiUser": "Jhi User"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "name": "JhiUser",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "request",
+            "otherEntityRelationshipName": "jhiUser",
+            "relationshipName": "request"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "dicDormitory",
+            "otherEntityRelationshipName": "jhiUser",
+            "relationshipName": "dicDormitory"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "dicRoom",
+            "otherEntityRelationshipName": "jhiUser",
+            "relationshipName": "dicRoom"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "announcement",
+            "otherEntityRelationshipName": "jhiUser",
+            "relationshipName": "announcement"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "dicStudentGroup",
+            "otherEntityRelationshipName": "jhiUser",
+            "relationshipName": "dicStudentGroup"
+        }
+    ],
+    "changelogDate": "20190408155107",
+    "entityTableName": "jhi_user",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

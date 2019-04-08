@@ -1,0 +1,25 @@
+{
+  "dormitoryServiceApp": {
+    "request": {
+      "home": {
+        "title": "Requests",
+        "createLabel": "Создать новый Request",
+        "createOrEditLabel": "Создать или отредактировать Request"
+      },
+      "created": "Новый Request создан с идентификатором {{ param }}",
+      "updated": "Request обновлен с идентификатором {{ param }}",
+      "deleted": "Request удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Request {{ id }}?"
+      },
+      "detail": {
+        "title": "Request"
+      },
+      "title": "Title",
+      "description": "Description",
+      "photoUrl": "Photo Url",
+      "dicTypeOfTrouble": "Dic Type Of Trouble",
+      "jhiUser": "Jhi User"
+    }
+  }
+}

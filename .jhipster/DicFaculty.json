@@ -1,0 +1,26 @@
+{
+    "name": "DicFaculty",
+    "fields": [
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "dicStudentGroup",
+            "otherEntityRelationshipName": "dicFaculty",
+            "relationshipName": "dicStudentGroup"
+        }
+    ],
+    "changelogDate": "20190408155103",
+    "entityTableName": "dic_faculty",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

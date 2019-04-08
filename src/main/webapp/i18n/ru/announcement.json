@@ -1,0 +1,25 @@
+{
+  "dormitoryServiceApp": {
+    "announcement": {
+      "home": {
+        "title": "Announcements",
+        "createLabel": "Создать новый Announcement",
+        "createOrEditLabel": "Создать или отредактировать Announcement"
+      },
+      "created": "Новый Announcement создан с идентификатором {{ param }}",
+      "updated": "Announcement обновлен с идентификатором {{ param }}",
+      "deleted": "Announcement удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Announcement {{ id }}?"
+      },
+      "detail": {
+        "title": "Announcement"
+      },
+      "description": "Description",
+      "title": "Title",
+      "startDate": "Start Date",
+      "finishDate": "Finish Date",
+      "jhiUser": "Jhi User"
+    }
+  }
+}

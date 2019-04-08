@@ -1,0 +1,26 @@
+{
+    "name": "DicTypeOfTrouble",
+    "fields": [
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "request",
+            "otherEntityRelationshipName": "dicTypeOfTrouble",
+            "relationshipName": "request"
+        }
+    ],
+    "changelogDate": "20190408155101",
+    "entityTableName": "dic_type_of_trouble",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

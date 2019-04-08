@@ -1,0 +1,22 @@
+{
+  "dormitoryServiceApp": {
+    "dicFaculty": {
+      "home": {
+        "title": "Dic Faculties",
+        "createLabel": "Создать новый Dic Faculty",
+        "createOrEditLabel": "Создать или отредактировать Dic Faculty"
+      },
+      "created": "Новый Dic Faculty создан с идентификатором {{ param }}",
+      "updated": "Dic Faculty обновлен с идентификатором {{ param }}",
+      "deleted": "Dic Faculty удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Dic Faculty {{ id }}?"
+      },
+      "detail": {
+        "title": "Dic Faculty"
+      },
+      "description": "Description",
+      "dicStudentGroup": "Dic Student Group"
+    }
+  }
+}

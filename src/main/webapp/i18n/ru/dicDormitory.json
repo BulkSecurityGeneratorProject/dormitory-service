@@ -1,0 +1,23 @@
+{
+  "dormitoryServiceApp": {
+    "dicDormitory": {
+      "home": {
+        "title": "Dic Dormitories",
+        "createLabel": "Создать новый Dic Dormitory",
+        "createOrEditLabel": "Создать или отредактировать Dic Dormitory"
+      },
+      "created": "Новый Dic Dormitory создан с идентификатором {{ param }}",
+      "updated": "Dic Dormitory обновлен с идентификатором {{ param }}",
+      "deleted": "Dic Dormitory удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Dic Dormitory {{ id }}?"
+      },
+      "detail": {
+        "title": "Dic Dormitory"
+      },
+      "description": "Description",
+      "floorAmount": "Floor Amount",
+      "jhiUser": "Jhi User"
+    }
+  }
+}
