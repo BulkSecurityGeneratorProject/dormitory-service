@@ -1,0 +1,13 @@
+{
+  "home": {
+    "title": "Келгиле, чай ичиниз!",
+    "subtitle": "Бул сиздин домашняя страницаныз",
+    "logged": {
+      "message": "Сиз вошли как \"{{username}}\"."
+    },
+    "question": "Суроонуз болсо:",
+    "link": {
+      "homepage": "homepage"
+    }
+  }
+}
