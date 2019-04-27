@@ -1,0 +1,9 @@
+{
+  "activate": {
+    "title": "Activation",
+    "messages": {
+      "success": "<strong>Силердин аккаунтыныз активация болду.</strong> Сураныч ",
+      "error": "<strong>Силердин аккаунтыныз возможно not be activated.</strong> Сураныч регистрация кылыныз кириш учун."
+    }
+  }
+}

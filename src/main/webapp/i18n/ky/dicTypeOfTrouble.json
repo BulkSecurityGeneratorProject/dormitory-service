@@ -1,0 +1,22 @@
+{
+  "dormitoryServiceApp": {
+    "dicTypeOfTrouble": {
+      "home": {
+        "title": "Dic Type Of Troubles",
+        "createLabel": "Create a new Dic Type Of Trouble",
+        "createOrEditLabel": "Create or edit a Dic Type Of Trouble"
+      },
+      "created": "A new Dic Type Of Trouble is created with identifier {{ param }}",
+      "updated": "A Dic Type Of Trouble is updated with identifier {{ param }}",
+      "deleted": "A Dic Type Of Trouble is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Dic Type Of Trouble {{ id }}?"
+      },
+      "detail": {
+        "title": "Dic Type Of Trouble"
+      },
+      "description": "Description",
+      "request": "Request"
+    }
+  }
+}
